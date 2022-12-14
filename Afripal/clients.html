@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="styles/clients.css">
+    <title>clients page/create & view Job page</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="index.html">Afri<span>pal</span></a>
+            </div>
+            <div class="account">
+                <div class="account-details">
+                    <p id="admin-name">Geek Code <a href="#" id="logout"><i class="uil uil-angle-down"></i></a></p>
+                    <div class="logout-div">
+                        <a href="index.html">Logout</a>
+                        <i class="uil uil-times hide-btn"></i>
+                    </div>
+                    <span>Client</span>
+                </div>
+                <img src="images/pic-3.png" alt="" class="profile">
+            </div>
+
+        </div>
+    </header>
+    <section class="main-container">
+        <div class="jobs-container">
+            <div class="jobs-title">
+                <h2>My Jobs</h2>
+            </div>
+            <div class="job-details">
+                <div class="jobs">
+                    <h4>Web Development</h4>
+                    <p class="desc">Hello Afripal, I need a web design and development service. The task is to create a website to my business and market my services through the website. More details are attached to the document here. Reach out to me for any questions.
+                    </p>
+                    <div class="date-container">
+                        <p><span>Date Posted:</span> 09-12-2022</p>
+                        <p><span>State:</span> Pending</p>
+                        <p><span>Uploaded file:</span> File name..</p>
+                        <a href="#" class="payment-btn">Make Pay</a>
+                    </div>
+                </div>
+                <div class="jobs">
+                    <h4>Physics Assignment</h4>
+                    <p class="desc">Hello Afripal, I need a web design and development service. The task is to create a website to my business and market my services through the website. More details are attached to the document here. Reach out to me for any questions.
+                    </p>
+                    <div class="date-container">
+                        <p><span>Date Posted:</span> 09-12-2022</p>
+                        <p><span>State:</span> completed</p>
+                        <p><span>Uploaded file:</span> File name..</p>
+                        <a href="#" class="payment-btn">Make Pay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="create-job-container">
+            <div class="search-container">
+                <input type="text" name="Search work" id="search" placeholder="Enter Category">
+                <i class="uil uil-search"></i>
+            </div>
+            <div class="new-job">
+                <h2>Create new Job</h2>
+                <div class="input-container">
+                    <fieldset>
+                        <legend>Job category</legend>
+                        <input type="text" name="Job type" id="job-type" placeholder="category">
+                    </fieldset>
+
+                </div>
+                <div class="input-container">
+                    <fieldset>
+                        <legend>Due Date</legend>
+                        <input type="date" name="Job type" id="job-type">
+                    </fieldset>
+
+                </div>
+                <div class="input-container">
+                    <fieldset>
+                        <legend>Budget</legend>
+                        <input type="number" name="amount" id="amount" placeholder="amount in USD">
+                    </fieldset>
+
+                </div>
+                <div class="input-container">
+                    <fieldset>
+                        <legend>Job Description</legend>
+                        <textarea name="" id="job-desc" cols="10" rows="5"></textarea>
+                    </fieldset>
+
+                </div>
+                <div class="input-container file-container">
+                    <p>Upload file</p><input type="file" name="file" id="file">
+
+                </div>
+                <input type="button" value="Save & Submit" class="button">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="copyright">
+            <p> <i class="uil uil-copyright"></i>Copyright 2022, <a href="index.html">Afri<span>pal</span></a></p>
+        </div>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="#">Terms of service</a>
+            <a href="#">Privacy Policy</a>
+            <a href="index.html">Logout</a>
+
+        </div>
+
+    </section>
+    <script src="scripts/admin.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
